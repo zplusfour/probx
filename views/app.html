@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="HandheldFriendly" content="true" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ProbX - App</title>
+  </head>
+  <body>
+    <div id="center">
+      <form method="POST" action="/app">
+        <label for="prob">Your math problem:</label><br /><br />
+        <textarea name="prob" id="prob" col="10" rows="10"><%= p %></textarea
+        ><br />
+        <input type="submit" value="Submit" />
+      </form>
+      <br />
+      <br />
+      <%= a %>
+    </div>
+  </body>
+</html>
